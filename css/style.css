@@ -1,1 +1,63 @@
-/* TODO: Make it awesome */
+/* TODO: Make it awesome */body {
+    background-color: bisque;
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    column-gap  : 15px;
+    align-items: baseline;
+    flex-direction: row;
+    max-height: auto;
+    width: 100%;
+    background: teal;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    column-gap  : 15px;
+    align-items: baseline;
+    flex-direction: row;
+    max-height: auto;
+    width: 100%;
+    background: teal;
+    color: white;
+}
+
+.votes {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 400px;
+    height: 350px;
+    border: 5px solid blueviolet;
+    transition: 0.2s;
+}
+
+img:hover {
+    border-radius: 10px;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn {
+    background-color: blueviolet;
+    color: antiquewhite;
+    align-self: center;
+    transition: 0.5s;
+}
+
+button:hover {
+    transform: scale(1.2);
+    box-shadow: 2px 2px 5px black;
+}
